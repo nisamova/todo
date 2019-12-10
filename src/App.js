@@ -5,7 +5,7 @@ import {Auth, API, graphqlOperation} from 'aws-amplify';
 import awsconfig from './aws-exports';
 import { withAuthenticator } from 'aws-amplify-react';
 import * as queries from './graphql/queries';
-import * as mutation from './graphql/mutations';
+import * as mutations from './graphql/mutations';
 Auth.configure(awsconfig);
 API.configure(awsconfig);
 
